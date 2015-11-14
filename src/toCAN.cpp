@@ -9,7 +9,7 @@
 
 
 void toCAN::exampleCallback(const canDongle::example::ConstPtr &msg) {
-    //ROS_INFO("motor_Callback: Baem!\r\n");
+
     canDongle::example ex;
 
     ex.can_id = msg->can_id;
