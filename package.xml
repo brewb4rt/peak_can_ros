@@ -1,0 +1,30 @@
+<package>
+  <name>canDongle</name>
+  <version>0.0.0</version>
+  <description>
+
+     can_bus
+
+  </description>
+  <maintainer email="d.behnecke@tu-bs.de">Danny Behnecke</maintainer>
+  <author>Danny Behnecke</author>
+  <license>BSD</license>
+  
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>comm</build_depend>
+  <run_depend>comm</run_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+  <build_depend>tf</build_depend>
+  <run_depend>tf</run_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+
+</package>
+
+
